@@ -5,8 +5,6 @@ function App() {
 
   return (
     <main>
-      <AppNav></AppNav>
-      <WordGame></WordGame>
     </main>
   );
 }
