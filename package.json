@@ -13,10 +13,13 @@
     "@aws-amplify/ui-react": "^6.5.5",
     "aws-amplify": "^6.6.6",
     "bootstrap": "5.3.8",
+    "mathjs": "^14.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.9.1"
+    "react-router-dom": "^7.9.1",
+    "sass": "^1.92.1",
+    "sass-embedded": "^1.93.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.5.0",
