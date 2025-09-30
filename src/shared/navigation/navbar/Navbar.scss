@@ -5,6 +5,18 @@
 }
 
 .navlink:hover {
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 2px solid #A0A0FF;
+    border-top: 2px solid #A0A0FF;
+    color: #A0A0FF;
 }
+
+.icon:hover {
+    .text {
+        fill: #A0A0FF
+    }
+
+    .rect {
+        stroke: #A0A0FF;
+    }
+}
+

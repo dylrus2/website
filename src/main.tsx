@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import WordGame from "./games/word-game/Word-Game.tsx";
-import ApollonianGasket from "./math/ApollonianGasket.tsx";
+import ApollonianGasket from "./math/apollonianGasket/ApollonianGasket.tsx";
 import Navbar from "./shared/navigation/navbar/Navbar.tsx";
 
 const router = createBrowserRouter([
@@ -42,11 +42,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
-    <div style={{ display: 'grid', width: '100%', height: '100%' }}>
+    <div style={{width: '100%', height: '100%' }}>
       <Navbar></Navbar>
-      <div>
-        <RouterProvider router={router} />
-      </div>
+      <RouterProvider router={router} />
     </div>
   </React.StrictMode>
 );

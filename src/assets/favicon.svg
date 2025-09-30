@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rocket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd93d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff9a3d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  
+  <!-- Stars -->
+  <circle cx="6" cy="7" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="25" cy="9" r="0.8" fill="#fff" opacity="0.9"/>
+  <circle cx="8" cy="24" r="0.7" fill="#fff" opacity="0.7"/>
+  <circle cx="26" cy="22" r="1" fill="#fff" opacity="0.8"/>
+  
+  <!-- Rocket body -->
+  <ellipse cx="16" cy="14" rx="4" ry="7" fill="url(#rocket)"/>
+  
+  <!-- Rocket window -->
+  <circle cx="16" cy="12" r="2" fill="#4ecdc4" opacity="0.9"/>
+  <circle cx="16" cy="12" r="1.2" fill="#1a535c" opacity="0.3"/>
+  
+  <!-- Rocket fins -->
+  <path d="M12 17 L10 22 L12 20 Z" fill="#ff6b6b"/>
+  <path d="M20 17 L22 22 L20 20 Z" fill="#ff6b6b"/>
+  
+  <!-- Rocket tip -->
+  <path d="M16 7 L12 12 L20 12 Z" fill="#ff6b6b"/>
+  
+  <!-- Flame trail -->
+  <ellipse cx="16" cy="22" rx="2.5" ry="3" fill="#ff9a3d" opacity="0.8"/>
+  <ellipse cx="16" cy="24" rx="2" ry="2.5" fill="#ffd93d" opacity="0.7"/>
+  <ellipse cx="16" cy="26" rx="1.5" ry="2" fill="#ffe66d" opacity="0.6"/>
+</svg>
